@@ -4,10 +4,10 @@
     "occupation":"Full-Stack Developer",
     "description":"In the business of turning ideas into realities",
     "image":"profilepic.jpg",
-    "bio":"I am currently a Computer Science student at the University of Western Ontario with a passion for learning. I am an aspiring Full-Stack Developer with experience in a variety of skills and am continuously experimenting with the newest technologies. I specialize in web development using React and Javascript, I am also experienced in traditional languages like Java, Python, C++. I am committed to delivering clear and concise code.",
+    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of skills and a passion for learning. I specialize in web development using the MERN stack(Mongodb, Express, React, Node). I am also proficient in traditional languages such Java, Python, C++.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "Cheung.Kyle1@gmail.com",
-    "phone": "657-546-6991",
+    "phone": "647-546-6991",
     "address":{
       "street":"(Your Street)",
       "city":"Toronto",
@@ -97,34 +97,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Quote Machine",
+        "category":"Javascript, Jquery, HTML, CSS",
+        "image":"quote-screen.jpg",
+        "url":"http://quotemachine.kylecheung.ca/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Mario Remake",
+        "category":"Remake of Mario for Android",
+        "image":"mario.jpg",
+        "url":"https://github.com/k4iru/Mariogame"
       }
     ]
   },
