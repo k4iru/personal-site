@@ -4,7 +4,7 @@
     "occupation":"Full-Stack Developer",
     "description":"In the business of turning ideas into realities",
     "image":"profilepic.jpg",
-    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of skills and a passion for learning. I specialize in web development using the MERN stack(Mongodb, Express, React, Node). I am also proficient in traditional languages such Java, Python, C++.",
+    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of technologies and a passion for learning. I specialize in web development using the MERN stack(Mongodb, Express, React, Node). I also have experience developing applications using more traditional languages such as Java, Python, and C++. My interests also include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to keep on the edge of technogloy.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "Cheung.Kyle1@gmail.com",
     "phone": "647-546-6991",
@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.kylecheung.ca",
-    "resumedownload":"https://drive.google.com/file/d/1q6FUERQYaa-TZkOfdQD-hTki68lhDPNL/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1Tt10NnQaLMMt0wHPlM0--Dfse8OGc1-x/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -53,8 +53,8 @@
       {
         "company":"C.D. Howe Institute",
         "title":"Contract Web Developer",
-        "years":"October 2018 - January 2019",
-        "description":"Contracted to develop a Progressive-Web-App using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript."
+        "years":"October 2018 - February 2019",
+        "description":"Contracted to develop a Generational Accounting Calculator using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript. I ensured browser compatibility with Internet Explorer as well as helped the employer set set up custom domains and launch the application."
       },
       {
         "company":"Edmonton Public School Board",

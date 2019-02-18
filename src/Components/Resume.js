@@ -48,17 +48,24 @@ class Resume extends Component {
 
                     <div className="nine columns main-col">
                         <h3>Programming Languages</h3>
-                        <p><strong> Proficient: </strong>Java, Javascript, Python, C++</p>
-                        <p><strong> Familiar: </strong>C, PHP, C#</p>
+                        <p>
+                            <strong> Proficient: </strong>Javascript, Python, C++
+                            <br />
+                            <strong> Familiar: </strong>Java, C, PHP, C#
+                            <br />
+                            <strong> Learning: </strong>C, Haskell
+                        </p>
                         <h3>Tools & Frameworks</h3>
                         <p>HTML, CSS, Git, React.js, Node.js, Express.js, MongoDB, SQL</p>
+                        <h3>Areas of Interests</h3>
+                        <p>Penetration Testing, ML/AI, Social Media  </p>
                     </div>
                 </div>
 
                 <div className="row work">
 
                     <div className="three columns header-col">
-                        <h1><span>Work</span></h1>
+                        <h1><span>Experience</span></h1>
                     </div>
 
                     <div className="nine columns main-col">
