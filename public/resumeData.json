@@ -64,6 +64,36 @@
         "url":"",
         "description":"I was responsible for conversing with clients and troubleshooting technical problems as smoothly as possible. I learned how to explain complex concepts as simply as possible as well as learning how to use administrative software to remotely help clients as well."
       }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
     ]
   },
   "portfolio":{
