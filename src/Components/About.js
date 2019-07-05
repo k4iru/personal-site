@@ -9,7 +9,6 @@ class About extends Component {
             var bio = this.props.data.bio;
             var resumeDownload = this.props.data.resumedownload;
             var email = this.props.data.email;
-            var city = this.props.data.address.city;
             var phone = this.props.data.phone;
         }
 

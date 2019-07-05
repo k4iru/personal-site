@@ -17,7 +17,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "react-alice-carousel": "^1.15.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
