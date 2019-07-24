@@ -61,7 +61,24 @@ class Resume extends Component {
                     </div>
 
                     <div className="nine columns main-col">
-                        {work}
+                        <div><h3>C.D. Howe Institute</h3>
+                            <a href=''></a>
+                            <p className="info">Contract Web Developer <span>&bull;</span> <em className="date">October 2018 - February 2019</em></p>
+                            <ul className="disc">
+                                <li>Developed <strong>JSX</strong> Components for a web app running <strong>React</strong> that enabled users to find and visualize generational tax data</li>
+                                <li>Configured <strong>DNS</strong> records for custom domain names and <strong>SSL</strong></li>
+                                <li>Collaborated closely with team to ensure all requirements and deadlines were met</li>
+                            </ul>
+                        </div>
+                        <div><h3>Edmonton Public School Board</h3>
+                            <a href=''></a>
+                            <p className="info">I.T. Technician <span>&bull;</span> <em className="date">June 2017 - August 2017</em></p>
+                            <ul className="disc">
+                                <li>Methodically troubleshoot and debug technical issues</li>
+                                <li>Responsible for tengaging and explaining various solutions to customers without technical experience</li>
+                                <li>Utilise SCCM to administer computer networks</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>

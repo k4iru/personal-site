@@ -4,10 +4,10 @@
     "occupation":"Full-Stack Developer",
     "description":"In the business of turning ideas into realities",
     "image":"profilepic.jpg",
-    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of technologies and a passion for learning. I specialize in web development using the MERN stack(Mongodb, Express, React, Node). I also have experience developing applications using languages such as Java, Python, and C++. I strongly believe that Progressive-Web-Apps are the future. As people move away from laptops and desktop computers, smartphones become more essential in everyday life. I aim to deliver a valuable and consistent product across devices at the touch of a finger. My interests include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to learn the newest technogloy.",
+    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of technologies. My passion for building started at a young age when I was gifted my first Lego set. I'd spend hours in my bedroom putting blocks together to build robots and whatever else I could think of. Programming, similarly is about taking fundamental concepts and adding those blocks together. Everything starts with the basics, which is why I enjoy experimenting with as many things as possible and expanding my breadth of knowledge. Currently, I specialize in developing using a JavaScript stack. I strongly believe that Progressive-Web-Apps are the future. As people move away from laptops and desktop computers, smartphones become more essential in everyday life. I aim to deliver a valuable and consistent product across devices at the touch of a finger. My interests include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to learn.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "Cheung.Kyle1@gmail.com",
-    "phone": "647-546-6991",
+    "phone": "1-647-546-6991",
     "address":{
       "street":"(Your Street)",
       "city":"Toronto",
@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.kylecheung.ca",
-    "resumedownload":"https://drive.google.com/file/d/1VEO2B6uKaDPu0xyHPULPbmJY6FNetPs9/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1nvoQoAiWYMlebYFq3AE8zm20y6Z9nXx-/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -26,11 +26,6 @@
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/k4iru/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/k4iru",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -54,8 +49,8 @@
         "company":"C.D. Howe Institute",
         "title":"Contract Web Developer",
         "years":"October 2018 - February 2019",
-        "url":"http://gac.cdhowe.org/",
-        "description":"Contracted to develop a Generational Accounting Calculator using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript. I ensured browser compatibility with Internet Explorer as well as helped the employer set set up custom domains and launch the application."
+        "url":"",
+        "description":"Contracted <strong>to</strong> develop a Generational Accounting Calculator using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript. I ensured browser compatibility with Internet Explorer as well as helped the employer set set up custom domains and launch the application."
       },
       {
         "company":"Edmonton Public School Board",
