@@ -15,31 +15,28 @@ class Portfolio extends Component {
 
         return (
             <section id="portfolio">
-                <Carousel showArrows={true}>
-                    <div>
-                        <img src='images/portfolio/mario.jpg' />
-                        <p className='legend'>Legend 1</p>
-                    </div>
-                    <div>
-                        <img src='images/portfolio/mario.jpg' />
-                        <p className='legend'>Legend 1</p>
-                    </div>
-                    <div>
-                        <img src='images/portfolio/mario.jpg' />
-                        <p className='legend'>Legend 1</p>
-                    </div>
-
-                </Carousel>
-
                 <div className="row">
 
                     <div className="twelve columns collapsed">
 
                         <h1>Check Out Some of My Projects.</h1>
 
-                        <div id="portfolio-wrapper" 
-                            className="bgrid-quarters s-bgrid-thirds cf">
-                            {projects}
+                        <div id="portfolio-wrapper">
+                            <Carousel showArrows={true}>
+                                <div>
+                                    <img src='images/portfolio/forecast.PNG' />
+                                    <p className='legend'>Legend 1</p>
+                                </div>
+                                <div>
+                                    <img src='images/portfolio/mario.jpg' />
+                                    <p className='legend'>Legend 1</p>
+                                </div>
+                                <div>
+                                    <img src='images/portfolio/mario.jpg' />
+                                    <p className='legend'>Legend 1</p>
+                                </div>
+
+                            </Carousel>
                         </div>
                     </div>
                 </div>
