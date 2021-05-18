@@ -64,9 +64,10 @@
        {
         "title":"Stargazing App",
         "category":"React, Javascript, Node, Express, Full-Stack",
-        "image":"forecast.PNG",
+        "image":"mario.jpg",
         "github": "https://github.com/k4iru/starry-night",
-        "url":"http://starry.kylecheung.ca/"
+        "url":"http://starry.kylecheung.ca/",
+        "description": "Lorem ipsum testests es asdd wwwwwwwwwwwwwwwwwwwwwwwas        sdddddddddwdsdad dwasd dwdadsdw dwdas"
       },
       {
         "title":"School Manager",

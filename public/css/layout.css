@@ -267,7 +267,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #FAF9F6;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -332,48 +332,8 @@ ul#nav li.current a {
   margin-bottom: 2em;
 }
 
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
-.bars {
-  width: 95%;
-  float: left;
-  padding: 0;
-  text-align: left;
-}
-.bars .skills {
-  margin-top: 36px;
-  list-style: none;
-}
-.bars li {
-  position: relative;
-  margin-bottom: 60px;
-  background: #ccc;
-  height: 42px;
-  border-radius: 3px;
-}
-.bars li em {
-  font: 15px "opensans-bold", sans-serif;
-  color: #313131;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: normal;
-  position: relative;
-  top: -36px;
-}
-.bar-expand {
-  position: absolute;
-  left: 0;
-  top: 0;
-
-  margin: 0;
-  padding-right: 24px;
-  background: #313131;
-  display: inline-block;
-  height: 42px;
-  line-height: 42px;
-  border-radius: 3px 0 0 3px;
+.disc {
+  list-style:disc;
 }
 
 /* ------------------------------------------------------------------ */
@@ -501,6 +461,73 @@ ul#nav li.current a {
   filter: alpha(opacity=100);
 }
 
+/* PORTFOLIO ITEMS */
+
+.port-item {
+  padding: 0 12px;
+  display: block;
+  background-color: #FAF9F6;
+  max-width: 800px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  text-align: center;
+  transition: all .1s ease-in-out;
+  margin-bottom: 3em;
+}
+
+.port-title {
+  padding: 1em;
+}
+
+.port-item:hover, .port-item:focus {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+
+.port-item a {
+  color: #313131;
+}
+
+.port-item a:hover, .port-item a:focus {
+  color: #11abb0;
+}
+
+.port-img {
+  width: 100%;
+  height: auto;
+}
+
+#port-wrapper {
+  margin: auto;
+}
+
+.port-img-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.port-desc {
+  text-align: left;
+}
+
+.port-sum {
+  padding: 0.5em 0;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.port-link i {
+  padding-right: 8px;
+}
+
+.port-item p {
+  padding-bottom: 1em;
+}
+.port-link {
+  padding-bottom: 0.5em;
+}
 /* popup modal */
 .popup-modal {
   max-width: 550px;
