@@ -5,15 +5,8 @@
     "description":"In the business of turning ideas into realities",
     "image":"profilepic.jpg",
     "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of technologies. My passion for building started at a young age when I was gifted my first Lego set. I'd spend hours in my bedroom putting blocks together to build robots and whatever else I could think of. Programming, similarly is about taking fundamental concepts and adding those blocks together. Everything starts with the basics, which is why I enjoy experimenting with as many things as possible and expanding my breadth of knowledge. Currently, I specialize in developing using a JavaScript stack. I strongly believe that Progressive-Web-Apps are the future. As people move away from laptops and desktop computers, smartphones become more essential in everyday life. I aim to deliver a valuable and consistent product across devices at the touch of a finger. My interests include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to learn.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "Cheung.Kyle1@gmail.com",
     "phone": "1-647-546-6991",
-    "address":{
-      "street":"(Your Street)",
-      "city":"Toronto",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
     "website": "http://www.kylecheung.ca",
     "resumedownload":"https://drive.google.com/file/d/1nvoQoAiWYMlebYFq3AE8zm20y6Z9nXx-/view?usp=sharing",
     "social":[
@@ -35,8 +28,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
+      {
+        "school":"Humber College",
+        "degree": "Post Graduate - Web Development",
+        "graduated": "June 2021",
+        "description": "Web Programming, Digital Design, Database Design, Security and Quality Assurance, Mobile Development, Usability and Accessibility"
+      },
       {
         "school":"University of Western Ontario",
         "degree":"BSc - Computer Science",
@@ -59,36 +57,6 @@
         "url":"",
         "description":"I was responsible for conversing with clients and troubleshooting technical problems as smoothly as possible. I learned how to explain complex concepts as simply as possible as well as learning how to use administrative software to remotely help clients as well."
       }
-    ],
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
-      }
     ]
   },
   "portfolio":{
@@ -106,18 +74,6 @@
         "image":"school_manager.jpg",
         "github": "https://github.com/k4iru/School-Manager",
         "url":"https://github.com/k4iru/School-Manager"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"",
-        "user":""
-      },
-      {
-        "text":"",
-        "user":""
       }
     ]
   }

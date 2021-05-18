@@ -72,7 +72,7 @@ h5,
 h6 {
   color: #313131;
   font-family: "opensans-bold", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 h1 a,
 h2 a,
@@ -120,6 +120,7 @@ em {
 strong,
 b {
   font: 15px/30px "opensans-bold", sans-serif;
+  font-weight: bold;
 }
 small {
   font-size: 11px;

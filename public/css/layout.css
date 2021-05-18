@@ -324,6 +324,14 @@ ul#nav li.current a {
   margin-top: 6px;
 }
 
+.education-container div:nth-child(1) {
+  margin-bottom: 2em;
+}
+
+.languages {
+  margin-bottom: 2em;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

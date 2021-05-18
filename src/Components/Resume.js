@@ -28,7 +28,7 @@ class Resume extends Component {
 
                     <div className="nine columns main-col">
                         <div className="row item">
-                            <div className="twelve columns">
+                            <div className="education-container twelve columns">
                                 {education}
                             </div>
                         </div>
@@ -44,7 +44,7 @@ class Resume extends Component {
 
                     <div className="nine columns main-col">
                         <h3>Programming Languages</h3>
-                        <p>
+                        <p className="languages">
                             <strong> Proficient: </strong>Javascript, Python, Java
                             <br />
                             <strong> Familiar: </strong>C, PHP, C++
