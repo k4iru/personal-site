@@ -45,7 +45,6 @@ Others
 
 html {
   font-size: 62.5%;
-  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -56,8 +55,6 @@ body {
   line-height: 24px;
   color: #666e75;
 
-  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%;
 }
 
 /*  2. Typography

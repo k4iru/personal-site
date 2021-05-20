@@ -7,6 +7,7 @@
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "react-scripts": "^4.0.3",
+        "scroll-snap": "^3.2.4",
         "serve": "^11.3.2"
     },
     "scripts": {
