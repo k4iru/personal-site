@@ -1,80 +1,80 @@
 {
   "main": {
-    "name":"Kyle Cheung",
-    "occupation":"Full-Stack Developer",
-    "description":"In the business of turning ideas into realities",
-    "image":"profilepic.jpg",
-    "bio":"I am a Toronto based Full-Stack Developer with experience in a variety of technologies. My passion for building started at a young age when I was gifted my first Lego set. I'd spend hours in my bedroom putting blocks together to build robots and whatever else I could think of. Programming, similarly is about taking fundamental concepts and adding those blocks together. Everything starts with the basics, which is why I enjoy experimenting with as many things as possible and expanding my breadth of knowledge. Currently, I specialize in developing using a JavaScript stack. I strongly believe that Progressive-Web-Apps are the future. As people move away from laptops and desktop computers, smartphones become more essential in everyday life. I aim to deliver a valuable and consistent product across devices at the touch of a finger. My interests include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to learn.",
+    "name": "Kyle Cheung",
+    "occupation": "Full-Stack Developer",
+    "description": "In the business of turning ideas into realities",
+    "image": "profilepic.jpg",
+    "bio": "I am a Toronto based Full-Stack Developer with experience in a variety of technologies. My passion for building started at a young age when I was gifted my first Lego set. I'd spend hours in my bedroom putting blocks together to build robots and whatever else I could think of. Programming, similarly is about taking fundamental concepts and adding those blocks together. Everything starts with the basics, which is why I enjoy experimenting with as many things as possible and expanding my breadth of knowledge. Currently, I specialize in developing using a JavaScript stack. I strongly believe that Progressive-Web-Apps are the future. As people move away from laptops and desktop computers, smartphones become more essential in everyday life. I aim to deliver a valuable and consistent product across devices at the touch of a finger. My interests include Machine Learning and Artificial Intelligence. Data excites me, and the many possible applications in the future keep me eager to learn.",
     "email": "Cheung.Kyle1@gmail.com",
     "phone": "1-647-546-6991",
     "website": "http://www.kylecheung.ca",
-    "resumedownload":"https://drive.google.com/file/d/1nvoQoAiWYMlebYFq3AE8zm20y6Z9nXx-/view?usp=sharing",
-    "social":[
+    "resumedownload": "https://drive.google.com/file/d/1nvoQoAiWYMlebYFq3AE8zm20y6Z9nXx-/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"http://facebook.com/k4iru",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "http://facebook.com/k4iru",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/k4iru/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/k4iru/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"http://github.com/k4iru",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/k4iru",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "education":[
+  "resume": {
+    "education": [
       {
-        "school":"Humber College",
+        "school": "Humber College",
         "degree": "Post Graduate - Web Development",
         "graduated": "June 2021",
         "description": "Web Programming, Digital Design, Database Design, Security and Quality Assurance, Mobile Development, Usability and Accessibility"
       },
       {
-        "school":"University of Western Ontario",
-        "degree":"BSc - Computer Science",
-        "graduated":"May 2019",
-        "description":"Data Structures & Algorithms, Operating Systems, Linear Algebra, Databases, Computer Networks, Software Design & Analysis, Artificial Intelligence, Software Tools, & Systems Programming, Human-Computer Interaction"
+        "school": "University of Western Ontario",
+        "degree": "BSc - Computer Science",
+        "graduated": "May 2019",
+        "description": "Data Structures & Algorithms, Operating Systems, Linear Algebra, Databases, Computer Networks, Software Design & Analysis, Artificial Intelligence, Software Tools, & Systems Programming, Human-Computer Interaction"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"C.D. Howe Institute",
-        "title":"Contract Web Developer",
-        "years":"October 2018 - February 2019",
-        "url":"",
-        "description":"Contracted <strong>to</strong> develop a Generational Accounting Calculator using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript. I ensured browser compatibility with Internet Explorer as well as helped the employer set set up custom domains and launch the application."
+        "company": "C.D. Howe Institute",
+        "title": "Contract Web Developer",
+        "years": "October 2018 - February 2019",
+        "url": "",
+        "description": "Contracted <strong>to</strong> develop a Generational Accounting Calculator using React. I was in charge of building the app from the ground up and styling it using CSS and Javascript. I ensured browser compatibility with Internet Explorer as well as helped the employer set set up custom domains and launch the application."
       },
       {
-        "company":"Edmonton Public School Board",
-        "title":"I.T. Technician",
-        "years":"June 2017 - August 2017",
-        "url":"",
-        "description":"I was responsible for conversing with clients and troubleshooting technical problems as smoothly as possible. I learned how to explain complex concepts as simply as possible as well as learning how to use administrative software to remotely help clients as well."
+        "company": "Edmonton Public School Board",
+        "title": "I.T. Technician",
+        "years": "June 2017 - August 2017",
+        "url": "",
+        "description": "I was responsible for conversing with clients and troubleshooting technical problems as smoothly as possible. I learned how to explain complex concepts as simply as possible as well as learning how to use administrative software to remotely help clients as well."
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
-       {
-        "title":"My Portfolio Site",
-        "category":"React, Javascript",
-        "image":"personalsite.jpg",
-        "github": "https://github.com/k4iru/starry-night",
-        "url":"https://www.kylecheung.ca/",
-        "description": "As a developer my portfolio website is extremely important. Often it's the very first thing potential employers look at when seeing what I can do. Therefore, I decided to build my portfolio website from scratch. No cookie cutter wordpress templates here! All components are built from scratch using React. Styling is done with a focus on accessibility and mobile first responsiveness."
+      {
+        "title": "My Portfolio Site",
+        "category": "React, Javascript",
+        "image": "personalsite.jpg",
+        "github": "https://github.com/k4iru/personal-site",
+        "url": "https://www.kylecheung.ca/",
+        "description": "As a developer my portfolio website is extremely important. Often it's the very first thing potential employers look at when seeing what I can do. Therefore, I decided to build my portfolio website from scratch. No cookie cutter wordpress templates here! All components are built from scratch using React. Styling is done with a focus on accessibility and mobile first responsiveness. Behind the scenes this site is hosted on a linux server configured with nginx along with all my other projects."
       },
       {
-        "title":"School Manager",
-        "category":"Java, Authentication",
-        "image":"school_manager.jpg",
+        "title": "School Manager",
+        "category": "Java, Authentication",
+        "image": "school_manager.jpg",
         "github": "https://github.com/k4iru/School-Manager",
-        "url":"#"
+        "url": "#"
       }
     ]
   }
