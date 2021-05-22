@@ -6,7 +6,6 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 import ScrollSnap from 'scroll-snap';
-import './app.css';
 
 function callback() {
   console.log('snapped');

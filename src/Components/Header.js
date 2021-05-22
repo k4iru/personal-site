@@ -6,7 +6,7 @@ class Header extends Component {
     if(this.props.data){
       var occupation= this.props.data.occupation;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url}><p className="visually-hidden">{network.name}</p><i className={network.className}></i></a></li>
       })
     }
 
@@ -15,8 +15,8 @@ class Header extends Component {
 
       <nav id="nav-wrap">
 
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">open burger menu</a>
+	      <a className="mobile-btn" href="#home" title="Hide navigation">close burger menu</a>
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
@@ -30,7 +30,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">Lets Build Something Amazing Together</h1>
-            <h3><span>{occupation}</span>.</h3>
+            <h2 className="banner-occupation">Full-Stack Developer.</h2>
             <hr />
             <ul className="social">
                {networks}
@@ -39,7 +39,7 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#about"><p className="visually-hidden">Scroll Down to About</p><i className="icon-down-circle"></i></a>
       </p>
 
    </header>

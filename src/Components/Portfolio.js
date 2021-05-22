@@ -7,17 +7,17 @@ class Portfolio extends Component {
         var projectImage = "images/portfolio/" + projects.image;
         return (
           <div key={projects.title} className="port-item">
-            <h3 className="port-title">{projects.title}</h3>
+            <h2 className="port-title">{projects.title}</h2>
             <div className="port-img-container">
-              <a href={projects.url} title={projects.title}>
+              
                 <img
                   className="port-img"
                   alt={projects.title}
                   src={projectImage}
                 />
-              </a>
+              
               <div className="port-desc">
-                <h4 className="port-sum">Summary</h4>
+                <h3 className="port-sum">Summary</h3>
                 <p>{projects.description}</p>
                 <div className="port-link">
                   <a href={projects.github}>

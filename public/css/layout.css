@@ -81,6 +81,10 @@ header .banner-text hr {
   border-color: rgba(150, 150, 150, 0.1);
 }
 
+header .banner-text h2 {
+  color: #fff;
+}
+
 /* header social links */
 header .social {
   margin: 24px 0;
@@ -123,6 +127,7 @@ header .scrolldown a {
 header .scrolldown a:hover {
   color: #11abb0;
 }
+
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -192,7 +197,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #f06000;
+  color: #FFB580;
 }
 
 /* ------------------------------------------------------------------ */
@@ -311,7 +316,7 @@ ul#nav li.current a {
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
+  color: #424A4D;
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -351,7 +356,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #404A4A;
 }
 
 /* Portfolio Content */
@@ -951,7 +956,7 @@ call-to-action .button {
 footer {
   padding-top: 28px;
   margin-bottom: 28px;
-  color: #303030;
+  color: #A8A8A8;
   font-size: 14px;
   text-align: center;
   position: relative;
@@ -1037,3 +1042,14 @@ footer .social-links li:first-child {
 #go-top a:hover {
   background-color: #0f9095;
 }
+
+/* accessibility */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+} 
