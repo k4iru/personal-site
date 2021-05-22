@@ -67,14 +67,31 @@
         "image": "personalsite.jpg",
         "github": "https://github.com/k4iru/personal-site",
         "url": "https://www.kylecheung.ca/",
-        "description": "As a developer my portfolio website is extremely important. Often it's the very first thing potential employers look at when seeing what I can do. Therefore, I decided to build my portfolio website from scratch. No cookie cutter wordpress templates here! All components are built from scratch using React. Styling is done with a focus on accessibility and mobile first responsiveness. Behind the scenes this site is hosted on a linux server configured with nginx along with all my other projects."
+        "description": "As a developer my portfolio and personal brand are extremely important. Often it's the first thing potential employers see when looking at my work. Therefore, I decided to build my portfolio website from scratch. No cookie cutter wordpress templates here! All components are built using React. Styling is done with a focus on accessibility and mobile first responsiveness. Portfolio information is read from a JSON file that reads on page load. Behind the scenes this site is hosted on a linux server configured with nginx along with all my other projects."
       },
       {
-        "title": "School Manager",
-        "category": "Java, Authentication",
-        "image": "school_manager.jpg",
-        "github": "https://github.com/k4iru/School-Manager",
-        "url": "#"
+        "title": "Starry",
+        "category": "React, Javascript, Node, Express",
+        "image": "starry.JPG",
+        "github": "https://github.com/k4iru/starry-night",
+        "url": "https://starry.kylecheung.ca/",
+        "description": "This is an app I made to better find astronomy weather forecasts. This app is built with mobile design in mind for when you're out and need to quickly check. The app is built using React on the front end and Node/Express for the server. The app works by calling on the popular dark sky api and formatting the data as well as caching searches in the database to limit api calls."
+      },
+      {
+        "title": "Discussion Board",
+        "category": "PHP, HTML, CSS, Authentication, MySQL",
+        "image": "discussion.JPG",
+        "github": "https://github.com/k4iru/discussion/tree/dev",
+        "url": "https://discussion.kylecheung.ca/",
+        "description": "This is a discussion board I created in PHP. Some key features are Authentication and some more extensive SQL operations. Designed with security in mind. Authentication is fully encrypted and uses sessions with an expiration date."
+      },
+      {
+        "title": "Just Cook",
+        "category": "React, Javascript, Node, Express, Authentication, Mongodb",
+        "image": "justcook.JPG",
+        "github": "https://github.com/k4iru/JustCook",
+        "url": "https://justcook.kylecheung.ca/",
+        "description": "Just Cook is a progressive web app built for the professional that loves to cook, but doesn't have a lot of time to take a shopping detour. Users can save recipes that they want to make and the app will automatically order the groceries necessary. Built using React for the front end. Express, Node for the backend and Mongodb as the database for storing recipes and user information. Bootstrapped using my Full Stack JavaScript template."
       }
     ]
   }
