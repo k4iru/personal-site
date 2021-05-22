@@ -62,12 +62,12 @@
   "portfolio":{
     "projects": [
        {
-        "title":"Stargazing App",
-        "category":"React, Javascript, Node, Express, Full-Stack",
-        "image":"mario.jpg",
+        "title":"My Portfolio Site",
+        "category":"React, Javascript",
+        "image":"personalsite.jpg",
         "github": "https://github.com/k4iru/starry-night",
-        "url":"http://starry.kylecheung.ca/",
-        "description": "Lorem ipsum testests es asdd wwwwwwwwwwwwwwwwwwwwwwwas        sdddddddddwdsdad dwasd dwdadsdw dwdas"
+        "url":"https://www.kylecheung.ca/",
+        "description": "As a developer my portfolio website is extremely important. Often it's the very first thing potential employers look at when seeing what I can do. Therefore, I decided to build my portfolio website from scratch. No cookie cutter wordpress templates here! All components are built from scratch using React. Styling is done with a focus on accessibility and mobile first responsiveness."
       },
       {
         "title":"School Manager",
