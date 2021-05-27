@@ -45,12 +45,12 @@ class Resume extends Component {
                     <div className="nine columns main-col">
                         <h2>Programming Languages</h2>
                         <p className="languages">
-                            <strong> Proficient: </strong>Javascript, Python, Java
+                            <strong> Proficient: </strong>Javascript, Python, PHP
                             <br />
-                            <strong> Familiar: </strong>C, PHP, C++
+                            <strong> Familiar: </strong>C#, Java, 
                         </p>
                         <h2>Tools & Frameworks</h2>
-                        <p>HTML, CSS, Git, React, Node, Express, MongoDB, SQL</p>
+                        <p>Git, React, Node, Express, MongoDB, SQL, Redux, .Net, Linux</p>
                     </div>
                 </div>
 

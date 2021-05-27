@@ -9,15 +9,14 @@ class Portfolio extends Component {
           <div key={projects.title} className="port-item">
             <h2 className="port-title">{projects.title}</h2>
             <div className="port-img-container">
-              
+              <a href={projects.url} alt={projects.title}>
                 <img
                   className="port-img"
                   alt={projects.title}
                   src={projectImage}
                 />
-              
+              </a>
               <div className="port-desc">
-                <h3 className="port-sum">Summary</h3>
                 <p>{projects.description}</p>
                 <div className="port-link">
                   <a href={projects.github}>
@@ -41,7 +40,7 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
         <div className="row">
-          <h1>Check Out Some of My Projects. (This component is under construction)</h1>
+          <h1>Check Out Some of My Projects.</h1>
 
           <div id="port-wrapper">{projects}</div>
         </div>

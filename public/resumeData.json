@@ -8,7 +8,7 @@
     "email": "Cheung.Kyle1@gmail.com",
     "phone": "1-647-546-6991",
     "website": "http://www.kylecheung.ca",
-    "resumedownload": "https://drive.google.com/file/d/1nvoQoAiWYMlebYFq3AE8zm20y6Z9nXx-/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1jKiq-3c5S8SysvLdRDmr5tnf08byROMG/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -86,12 +86,20 @@
         "description": "This is a discussion board I created in PHP. Some key features are Authentication and some more extensive SQL operations. Designed with security in mind. Authentication is fully encrypted and uses sessions with an expiration date."
       },
       {
-        "title": "Just Cook",
+        "title": "Just Cook (WIP)",
         "category": "React, Javascript, Node, Express, Authentication, Mongodb",
         "image": "justcook.JPG",
         "github": "https://github.com/k4iru/JustCook",
-        "url": "https://justcook.kylecheung.ca/",
+        "url": "https://justcook.live/",
         "description": "Just Cook is a progressive web app built for the professional that loves to cook, but doesn't have a lot of time to take a shopping detour. Users can save recipes that they want to make and the app will automatically order the groceries necessary. Built using React for the front end. Express, Node for the backend and Mongodb as the database for storing recipes and user information. Bootstrapped using my Full Stack JavaScript template."
+      },
+      {
+        "title": "Covid Tracker",
+        "category": "React, Javascript, React-Hooks",
+        "image": "vaccine.JPG",
+        "github": "https://github.com/k4iru/covid-19",
+        "url": "https://vaccine.kylecheung.ca/",
+        "description": "This project was built to help me update my React knowledge. Components are built using Functional Component syntax, await/async, and React-hooks. The app layout is completely responsive with flexbox. I decided to also use Material-ui to style in order to learn new css frameworks."
       }
     ]
   }

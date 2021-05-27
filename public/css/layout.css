@@ -480,8 +480,13 @@ ul#nav li.current a {
   margin-bottom: 3em;
 }
 
+.port-desc p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
 .port-title {
-  padding: 1em;
+  padding-top: 1em;
 }
 
 .port-item:hover, .port-item:focus {
@@ -513,10 +518,6 @@ ul#nav li.current a {
 
 .port-desc {
   text-align: left;
-}
-
-.port-sum {
-  padding: 0.5em 0;
 }
 
 i {
