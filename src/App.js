@@ -1,68 +1,33 @@
-import React, { Component } from 'react';
-import $ from 'jquery';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
-import ScrollSnap from 'scroll-snap';
+import React, { useState, useEffect } from "react";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Portfolio from "./Components/Portfolio";
 
-function callback() {
-  console.log('snapped');
-}
+const App = () => {
 
-class App extends Component {
+  const [resumeData, setResumeData] = useState({});
 
-  constructor(props){
-    super(props);
-    this.state = {
-      resumeData: {}
-    };
+  const getResumeData = async () => {
+    const response = await fetch("/resumeData.json");
+    const data = await response.json();
+    setResumeData(data)
+  };
 
-  }
+  useEffect(() => {
+    getResumeData();
+  }, []);
 
-  container = React.createRef();
-
-  bindScrollSnap() {
-    const element = this.container.current;
-    const snapElement = new ScrollSnap(element, {
-      snapDestinationY: '90%',
-    });
-
-    snapElement.bind(callback);
-  }
-
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount(){
-    this.getResumeData();
-    this.bindScrollSnap();
-  }
-
-  render() {
-    return (
-      <div className="App" ref={this.container}>
-        <Header  data={this.state.resumeData.main}/>
-        <About  data={this.state.resumeData.main}/>
-        <Resume  data={this.state.resumeData.resume}/>
-        <Portfolio  data={this.state.resumeData.portfolio}/>
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="App" >
+      <Header data={resumeData.main} />
+      <About data={resumeData.main} />
+      <Resume data={resumeData.resume} />
+      <Portfolio data={resumeData.portfolio} />
+      <Footer data={resumeData.main} />
+    </div>
+  );
+};
 
 export default App;
