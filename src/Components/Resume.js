@@ -61,6 +61,14 @@ class Resume extends Component {
                     </div>
 
                     <div className="nine columns main-col">
+                    <div><h2>Flywheel Strategic</h2>
+                            <p className="info">Full-Stack Developer <span>&bull;</span> <em className="date">July 2021 - Present</em></p>
+                            <ul className="disc">
+                                <li>Develop web applications using a variety of technologies including <strong>MVC.NET, PHP, SQL, JavaScript</strong></li>
+                                <li>Quckly dive into new clients existing codebase to build out new features or requests</li>
+                                <li>Integrate and create new tags and reports in Google Tag Manager and Google Analytics 4</li>
+                            </ul>
+                        </div>
                         <div><h2>C.D. Howe Institute</h2>
                             <p className="info">Contract Web Developer <span>&bull;</span> <em className="date">October 2018 - February 2019</em></p>
                             <ul className="disc">
