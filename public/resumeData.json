@@ -8,7 +8,7 @@
     "email": "Cheung.Kyle1@gmail.com",
     "phone": "1-647-546-6991",
     "website": "http://www.kylecheung.ca",
-    "resumedownload": "https://drive.google.com/file/d/1uQr61UHpQrfp9iaFZsxT28AyQXB9mXf4/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1x_vYZvytxD3VQKJIU7Rtg6q39whH19-w/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -97,7 +97,7 @@
         "category": "React, Javascript, Node, Express, Authentication, Mongodb",
         "image": "justcook.JPG",
         "github": "https://github.com/k4iru/JustCook",
-        "url": "https://justcook.live/",
+        "url": "https://justcook.kylecheung.ca/",
         "description": "Just Cook is a progressive web app built for the professional that loves to cook, but doesn't have a lot of time to take a shopping detour. Users can save recipes that they want to make and the app will automatically order the groceries necessary. Built using React for the front end. Express, Node for the backend and Mongodb as the database for storing recipes and user information. Bootstrapped using my Full Stack JavaScript template."
       },
       {

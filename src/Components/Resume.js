@@ -45,12 +45,11 @@ class Resume extends Component {
                     <div className="nine columns main-col">
                         <h2>Programming Languages</h2>
                         <p className="languages">
-                            <strong> Proficient: </strong>Javascript, Python, PHP
-                            <br />
-                            <strong> Familiar: </strong>C#, Java, 
+                            JavaScript, Python, C#, Java, HTML/CSS
                         </p>
                         <h2>Tools & Frameworks</h2>
-                        <p>Git, React, Node, Express, MongoDB, SQL, Redux, .Net, Linux</p>
+                        <p><strong>Frameworks: </strong>React, Express, Redux, Node, .NET MVC, Jest</p>
+                        <p><strong>Other: </strong>SQL, MongoDB, Git, SCSS</p>
                     </div>
                 </div>
 
@@ -62,19 +61,19 @@ class Resume extends Component {
 
                     <div className="nine columns main-col">
                     <div><h2>Flywheel Strategic</h2>
-                            <p className="info">Full-Stack Developer <span>&bull;</span> <em className="date">July 2021 - Present</em></p>
+                            <p className="info">Full Stack Developer <span>&bull;</span> <em className="date">July 2021 - Present</em></p>
                             <ul className="disc">
-                                <li>Develop web applications using a variety of technologies including <strong>MVC.NET, PHP, SQL, JavaScript</strong></li>
-                                <li>Quckly dive into new clients existing codebase to build out new features or requests</li>
-                                <li>Integrate and create new tags and reports in Google Tag Manager and Google Analytics 4</li>
+                                <li>Develop and troubleshoot back-end and front-end applications using MVC.NET, PHP JavaScript and more depending on client stack</li>
+                                <li>Database management and upgrades using Microsoft SQL Server</li>
+                                <li>Experience applying best practices to build responsive and AODA compliant solution</li>
                             </ul>
                         </div>
                         <div><h2>C.D. Howe Institute</h2>
                             <p className="info">Contract Web Developer <span>&bull;</span> <em className="date">October 2018 - February 2019</em></p>
                             <ul className="disc">
-                                <li>Developed <strong>JSX</strong> Components for a web app running <strong>React</strong> that enabled users to find and visualize generational tax data</li>
-                                <li>Configured <strong>DNS</strong> records for custom domain names and <strong>SSL</strong></li>
-                                <li>Collaborated closely with team to ensure all requirements and deadlines were met</li>
+                                <li>Designed and developed the user interface using React with ES6 JavaScript</li>
+                                <li>DevOps including product deployment, hosting, DNS configuration</li>
+                                <li>CI/CD on Github using Travis, Unit testing using Jest</li>
                             </ul>
                         </div>
                         <div><h2>Edmonton Public School Board</h2>
