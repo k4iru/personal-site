@@ -9,7 +9,7 @@
         "lodash": "^4.17.21",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
-        "react-scripts": "^4.0.3",
+        "react-scripts": "^5.0.1",
         "scroll-snap": "^3.2.4",
         "serve": "^11.3.2",
         "y18n": "^4.0.1",
